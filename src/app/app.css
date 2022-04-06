@@ -1,0 +1,14 @@
+.wrapper{
+   width:20%;
+   height:auto;
+   border:1px solid lightgray;
+   border-radius:10px;
+   background-color:crimson;
+   position:relative;
+   left:39%;
+}
+
+span{
+  font-weight:bold;
+  font-size:20px;
+}
