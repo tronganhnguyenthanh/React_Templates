@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 export default class LeftSidebar extends Component {
     constructor(props) {
         super(props)

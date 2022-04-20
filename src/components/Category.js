@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-import LeftSidebar from './LeftSidebar'
-import RightSidebar from './RightSidebar'
+import LeftSidebarHook from "./LeftSidebarHook"
+import RightSidebarHook from "./RightSidebarHook"
 export default class Category extends Component{
     render() {
         return (
             <div>
                 <div className="container">
                     <div className="row">
-                       <LeftSidebar/>
-                       <RightSidebar/>
+                       <LeftSidebarHook/>
+                       <RightSidebarHook/>
                     </div>
                 </div>
             </div>
